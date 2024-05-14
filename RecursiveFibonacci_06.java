@@ -1,5 +1,3 @@
-package stacksAndQueues;
-
 import java.util.Scanner;
 
 public class RecursiveFibonacci_06 {
@@ -19,7 +17,6 @@ public class RecursiveFibonacci_06 {
         }
 
         if (memoryForFib[n] != 0) {
-            //имаме го изчислено
             return memoryForFib[n];
         }
 
